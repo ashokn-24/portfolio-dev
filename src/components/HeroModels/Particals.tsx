@@ -19,9 +19,9 @@ const Particals = ({ count = 200 }: Props) => {
     for (let i = 0; i < count; i++) {
       temp.push({
         position: [
-          (Math.random() - 0.5) * 10,
-          Math.random() * 10 + 5,
-          (Math.random() - 0.5) * 10,
+          (Math.random() - 0.5) * 8, // X position: -4 to 4
+          Math.random() * 5 + 2, // Y position: 2 to 7 (lower)
+          (Math.random() - 0.5) * 8, // Z position: -4 to 4
         ],
         speed: 0.005 + Math.random() * 0.001,
       });

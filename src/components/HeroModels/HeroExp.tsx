@@ -14,7 +14,7 @@ const HeroExp = (props: Props) => {
   return (
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
       <HeroLights />
-      <Particals count={200} />
+      <Particals count={100} />
       <OrbitControls
         enablePan={false}
         enableZoom={!isTablet}
