@@ -1,14 +1,12 @@
-import React from "react";
 import { counterItems } from "../assets/constants";
-import { div } from "three/tsl";
 import CountUp from "react-countup";
 type Props = {};
 
-const AnimatedCounter = (props: Props) => {
+const AnimatedCounter = (_props: Props) => {
   return (
     <div id="counter" className="padding-x-lg xl:mt-0 mt-32">
       <div className="mx-auto grid-4-cols">
-        {counterItems.map((c, i) => (
+        {counterItems.map((c, _i) => (
           <div className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center">
             <div
               key={c.label}
