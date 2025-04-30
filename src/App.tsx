@@ -1,8 +1,12 @@
 import NavBar from "./components/NavBar";
+import CodingAchievementsSection from "./sections/CodingAchievementsSection";
+import Contact from "./sections/Contact";
+import ExperienceSection from "./sections/ExperienceSection";
 import FeatureCards from "./sections/FeatureCards";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
-import LogoShowcase from "./sections/LogoShowCase";
 import ShowcaseSection from "./sections/ShowcaseSection";
+import TechStack from "./sections/TechStack";
 
 type Props = {};
 
@@ -12,8 +16,12 @@ const App = (props: Props) => {
       <NavBar />
       <Hero />
       <ShowcaseSection />
-      {/* <LogoShowcase /> */}
       <FeatureCards />
+      <CodingAchievementsSection />
+      <ExperienceSection />
+      <TechStack />
+      <Contact />
+      <Footer />
     </>
   );
 };

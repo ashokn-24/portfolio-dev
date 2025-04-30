@@ -4,16 +4,16 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "Coding Achievements",
+    link: "#coding-achievements",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
   {
     name: "Skills",
     link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
   },
 ];
 
@@ -29,10 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Months of Internship Experience" },
+  { value: 5, suffix: "+", label: "Full-Stack Projects" },
+  { value: 250, suffix: "+", label: "Coding Challenges Solved" },
 ];
 
 const logoIconsList = [
@@ -74,41 +73,53 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Attention to Detail",
+    desc: "Ensuring precision in coding and project delivery, meticulously resolving bugs and optimizing solutions during internship projects.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Effective Collaboration",
+    desc: "Thrived in team settings, working seamlessly with colleagues to meet deadlines and deliver high-quality results in a fast-paced environment.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Adaptability",
+    desc: "Quickly learned and applied new technologies like Odoo and FastAPI, embracing challenges to grow as a developer.",
   },
 ];
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "Redux",
+    imgPath: "/images/logos/redux.svg",
   },
   {
-    name: "Backend Developer",
+    name: "Java",
+    imgPath: "/images/logos/java.svg",
+  },
+  {
+    name: "Node.js",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "MySQL",
+    imgPath: "/images/logos/mysql.svg",
   },
   {
-    name: "Project Manager",
+    name: "Tailwind CSS",
+    imgPath: "/images/logos/tailwind.svg",
+  },
+  {
+    name: "Git",
     imgPath: "/images/logos/git.svg",
+  },
+  {
+    name: "Three.js",
+    imgPath: "/images/logos/three.png",
   },
 ];
 
@@ -119,12 +130,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Python Developer",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -138,51 +149,52 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
 
+const codingAchievements = [
+  {
+    imgPath: "/images/logos/leet.png",
+    title: "LeetCode",
+    desc: "Solved 150+ coding challenges, mastering data structures and algorithms with Java.",
+    date: "January 2023 - April 2025",
+  },
+  {
+    imgPath: "/images/logos/gfg.png",
+    title: "GeeksforGeeks",
+    desc: "Solved 100+ coding challenges, excelling in algorithmic problem-solving with Java.",
+    date: "January 2023 - April 2025",
+  },
+];
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Ashok demonstrated strong problem-solving skills and technical expertise in Odoo development, contributing to optimized business processes and timely project delivery.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/images/logo1.jpeg",
+    title: "Python Odoo Developer Intern",
+    date: "March 2024 - June 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed and optimized Odoo modules, resolving bugs and enhancing functionality.",
+      "Collaborated with a 5-member team to meet project deadlines under tight schedules.",
+      "Wrote 500+ lines of Python and HTML code to improve Odoo business processes.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Ashok showcased exceptional full-stack development skills, delivering a robust scholarship portal that streamlined administrative processes and enhanced user experience.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    logoPath: "/images/logo2.jpeg",
+    title: "Freelance Full Stack Developer",
+    date: "October 2023 - February 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built a scholarship management web app with Google and Microsoft OAuth authentication and role-based access control.",
+      "Developed backend with Node.js, Express, Sequelize ORM, and MySQL, and frontend with React, Ant Design, and Tailwind CSS.",
+      "Implemented JWT authentication for 100+ users and designed a responsive UI supporting English and Arabic, reducing admin processing time by 30%.",
     ],
   },
 ];
@@ -273,6 +285,7 @@ export {
   counterItems,
   expCards,
   expLogos,
+  codingAchievements,
   testimonials,
   socialImgs,
   techStackIcons,

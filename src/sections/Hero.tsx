@@ -50,7 +50,9 @@ const Hero = (props: Props) => {
               <h1>That Deliver Results</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I`m Ashok a software developer in Trichy with pasion for code
+              I'm Ashok Nagaraj, a passionate software developer <br /> skilled
+              in building scalable web apps with JavaScript, React.js, Node.js,
+              and Java.
             </p>
 
             <Button
