@@ -7,9 +7,7 @@ import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import TechStack from "./sections/TechStack";
 
-type Props = {};
-
-const App = (_props: Props) => {
+const App = () => {
   return (
     <>
       <NavBar />

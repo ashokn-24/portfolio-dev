@@ -14,7 +14,6 @@ const CodingAchievementsSection = () => {
         {codingAchievements.map((card, idx) => (
           <div className="h-48" key={card.title}>
             <GlowCard
-              code={card}
               index={idx}
               card={{
                 review: "",
@@ -23,6 +22,12 @@ const CodingAchievementsSection = () => {
                 title: "",
                 date: "",
                 responsibilities: [],
+              }}
+              code={{
+                imgPath: "",
+                title: "",
+                desc: "",
+                date: "",
               }}
             >
               <div className="flex flex-col gap-5">

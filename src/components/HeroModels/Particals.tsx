@@ -60,6 +60,8 @@ const Particals = ({ count = 200 }: Props) => {
           array={positions}
           count={count}
           itemSize={3}
+          // @ts-expect-error
+          args={[]}
         />
       </bufferGeometry>
       <pointsMaterial

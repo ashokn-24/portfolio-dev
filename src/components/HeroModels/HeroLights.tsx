@@ -1,9 +1,6 @@
-import React from "react";
 import * as THREE from "three";
 
-type Props = {};
-
-const HeroLights = (props: Props) => {
+const HeroLights = () => {
   return (
     <>
       {/* <ambientLight intensity={0.2} color={"#1a1a40"} />

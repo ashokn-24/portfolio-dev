@@ -23,7 +23,7 @@ type Props = {
   code: Code;
 };
 
-const GlowCard = ({ code, index, card, children }: Props) => {
+const GlowCard = ({ index, card, children }: Props) => {
   const cardRef = useRef<(HTMLDivElement | null)[]>([]);
 
   const handleMouseMove =
@@ -66,9 +66,11 @@ const GlowCard = ({ code, index, card, children }: Props) => {
           </div>
         </div>
       )} */}
-      <div className="mb-5">
-        <p className="text-white-50 text-lg">{card.review}</p>
-      </div>
+      {card && (
+        <div className="mb-5">
+          <p className="text-white-50 text-lg">{card.review}</p>
+        </div>
+      )}
       {children}
     </div>
   );

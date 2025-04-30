@@ -5,9 +5,7 @@ import { Room } from "./Optimized-room";
 import HeroLights from "./HeroLights";
 import Particals from "./Particals";
 
-type Props = {};
-
-const HeroExp = (props: Props) => {
+const HeroExp = () => {
   const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 

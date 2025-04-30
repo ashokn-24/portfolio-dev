@@ -2,7 +2,6 @@ import { logoIconsList } from "../assets/constants";
 
 type IconProps = {
   imgPath: string;
-  name: string;
 };
 
 type LogoIconProps = {
@@ -12,7 +11,7 @@ type LogoIconProps = {
 const LogoIcon = ({ icon }: LogoIconProps) => {
   return (
     <div className="flex-none flex-center marquee-item">
-      <img src={icon.imgPath} alt={icon.name} />
+      <img src={icon.imgPath} alt={"logo"} />
     </div>
   );
 };
