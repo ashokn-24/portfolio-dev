@@ -7,7 +7,7 @@ import gsap from "gsap";
 
 type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = (_props: Props) => {
   useGSAP(() => {
     gsap.fromTo(
       ".hero-text h1",

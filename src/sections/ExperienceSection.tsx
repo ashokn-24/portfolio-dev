@@ -74,7 +74,16 @@ const ExperienceSection = (_props: Props) => {
             {expCards.map((card, idx) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard code={false} card={card} index={idx}>
+                  <GlowCard
+                    card={card}
+                    index={idx}
+                    code={{
+                      imgPath: "",
+                      title: "",
+                      desc: "",
+                      date: "",
+                    }}
+                  >
                     <div>
                       <img src={card.imgPath} alt={card.title} width={150} />
                     </div>

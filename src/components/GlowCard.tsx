@@ -9,11 +9,18 @@ type CardProps = {
   responsibilities: string[];
 };
 
+type Code = {
+  imgPath: string;
+  title: string;
+  desc: string;
+  date: string;
+};
+
 type Props = {
   card: CardProps;
   children?: React.ReactNode;
   index: number;
-  code: boolean;
+  code: Code;
 };
 
 const GlowCard = ({ code, index, card, children }: Props) => {

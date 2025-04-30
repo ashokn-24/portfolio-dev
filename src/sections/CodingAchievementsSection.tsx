@@ -1,5 +1,3 @@
-// import React from "react";
-import { div } from "three/tsl";
 import { codingAchievements } from "../assets/constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
@@ -15,7 +13,18 @@ const CodingAchievementsSection = () => {
       <div className="grid grid-2-cols justify-center my-10  gap-15 px-30">
         {codingAchievements.map((card, idx) => (
           <div className="h-48" key={card.title}>
-            <GlowCard code={true} card={card} index={idx}>
+            <GlowCard
+              code={card}
+              index={idx}
+              card={{
+                review: "",
+                imgPath: "",
+                logoPath: "",
+                title: "",
+                date: "",
+                responsibilities: [],
+              }}
+            >
               <div className="flex flex-col gap-5">
                 <div>
                   <img src={card.imgPath} alt={card.title} width={50} />

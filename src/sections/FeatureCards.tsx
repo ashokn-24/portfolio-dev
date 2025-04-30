@@ -1,4 +1,3 @@
-import { div } from "three/tsl";
 import { abilities } from "../assets/constants";
 
 type Props = {};
