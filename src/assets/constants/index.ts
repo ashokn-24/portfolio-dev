@@ -262,18 +262,17 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    link: "https://www.instagram.com/ashok.24_/",
     imgPath: "/images/insta.png",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "git",
+    link: "https://github.com/ashokn-24",
+    imgPath: "/images/github.svg",
   },
   {
     name: "linkedin",
+    link: "https://www.linkedin.com/in/ashokn24",
     imgPath: "/images/linkedin.png",
   },
 ];
