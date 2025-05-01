@@ -50,38 +50,39 @@ const ShowcaseSection = (_props: Props) => {
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="ryde" />
+              <img
+                src="/images/job.png"
+                alt="Job Portal"
+                className="object-contain"
+              />
             </div>
             <div className="text-content">
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+              <h2>Job Portal</h2>
               <p className="text-white-50 md:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus praesentium saepe eos quas aspernatur enim laudantium
-                quidem omnis nemo fugit officia iusto vero, hic porro fugiat
-                veniam voluptas, voluptatibus corrupti!
+                A full-stack job search platform with secure JWT authentication
+                and role-based access, supporting 100+ job postings and 50+ user
+                applications. Built with Node.js, Express.js, and MongoDB for
+                the backend, and React.js, Ant Design, and Tailwind CSS for the
+                frontend. Features include secure job application processing and
+                advanced filtering tools for job listings.
               </p>
             </div>
           </div>
-
           {/* right */}
-
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="" />
+                <img src="/images/ssp.png" alt="Scholarship Portal" />
               </div>
-              <h2>Library managment</h2>
+              <h2>Scholarship Portal</h2>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project2.png" alt="" />
+                <img src="/images/weather.png" alt="weather app" />
               </div>
-              <h2>JobPortal</h2>
+              <h2>Weather App</h2>
             </div>
           </div>
-          {/* 
-          <div className="project-list-wrapper overflow-hidden">
-          </div> */}
         </div>
       </div>
     </section>
