@@ -10,7 +10,7 @@ const CodingAchievementsSection = () => {
         sub="📈 Progress I’ve Made Through Code and Consistency"
       />
 
-      <div className="grid md:grid-2-cols grid-rows-1 justify-center md:my-10 md:w-fit w-full md:gap-20 gap-35 md:px-30 px-5">
+      <div className="grid md:grid-2-cols grid-rows-1 items-center justify-center md:my-10 w-full md:gap-20 gap-35 md:px-30 px-5">
         {codingAchievements.map((card, idx) => (
           <div className="h-48" key={card.title}>
             <GlowCard
