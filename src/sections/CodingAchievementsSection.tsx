@@ -4,13 +4,13 @@ import GlowCard from "../components/GlowCard";
 
 const CodingAchievementsSection = () => {
   return (
-    <section id="coding-achievements" className="my-26">
+    <section id="coding-achievements" className="md:my-26 my-40">
       <TitleHeader
         title="Problem Solving Achievements"
         sub="📈 Progress I’ve Made Through Code and Consistency"
       />
 
-      <div className="grid grid-2-cols justify-center my-10  gap-15 px-30">
+      <div className="grid md:grid-2-cols grid-rows-1 justify-center md:my-10 md:w-fit w-full md:gap-20 gap-35 md:px-30 px-5">
         {codingAchievements.map((card, idx) => (
           <div className="h-48" key={card.title}>
             <GlowCard
