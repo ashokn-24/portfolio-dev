@@ -190,7 +190,7 @@ const expCards = [
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.jpeg",
     title: "Freelance Full Stack Developer",
-    date: "October 2023 - February 2024",
+    date: "July 2024 - December 2024",
     responsibilities: [
       "Built a scholarship management web app with Google and Microsoft OAuth authentication and role-based access control.",
       "Developed backend with Node.js, Express, Sequelize ORM, and MySQL, and frontend with React, Ant Design, and Tailwind CSS.",
